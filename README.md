@@ -3,9 +3,12 @@ This repo contains content relating to the 'Getting and Cleaning Data' Course Pr
 
 The script that converts the UCI HAR dataset to a tidy dataset containing the averages of mean & stdev values per subject / per activity is contained in the run_analysis_R file.
 
-An explanation of how this script works:
+A codebook pertaining to the dataset is conatined in this repo in the CodeBook.md file.
 
-The script is broken into eight sectiuons which are indicated by comments.
+====
+An explanation of how the run_analysis.R script works:
+
+The script is broken into eight sections which are indicated by comments.
 
 Section 1 reads eight data files from the UCI HAR dataset. These contain the test and train data, corresponding subject data, and sets of activity labels and data features.
 
